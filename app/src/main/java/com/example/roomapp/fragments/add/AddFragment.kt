@@ -26,7 +26,7 @@ class AddFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
+
         val view = inflater.inflate(R.layout.fragment_add, container, false)
 
         mUserViewModel = ViewModelProvider(this).get(UserViewModel::class.java)
